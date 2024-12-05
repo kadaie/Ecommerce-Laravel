@@ -83,7 +83,7 @@ $per_rate=number_format($per_rate, 1);
       <h5 class="card-title">{{ $product->name }}</h5>
       <p class="card-text">{{ $product->description }}</p>
   
-      <p style = "text-transform:capitalize;">Catagory : {{ $product->catagory }}</p>
+      <p style = "text-transform:capitalize;">category : {{ $product->category }}</p>
       @if($product->session==0)
       <p style = "text-transform:capitalize;">Season : Breakfast</p>
       @endif

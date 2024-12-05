@@ -43,8 +43,8 @@
                         <input type="number" name="price" class="form-control" id="exampleInputPassword4">
                       </div>
                       <div class="form-group">
-                        <label for="exampleSelectGender">Catagory</label>
-                        <select class="form-control" name="catagory" id="exampleSelectGender">
+                        <label for="exampleSelectGender">category</label>
+                        <select class="form-control" name="category" id="exampleSelectGender">
                           <option value="regular">Regular</option>
                           <option value="special">Special</option>
                         </select>

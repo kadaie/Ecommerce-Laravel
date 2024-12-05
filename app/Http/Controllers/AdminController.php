@@ -255,7 +255,7 @@ class AdminController extends Controller
         $data['name']=$req->name;
         $data['description']=$req->description;
         $data['price']=$req->price;
-        $data['catagory']=$req->catagory;
+        $data['category']=$req->category;
         $data['session']=$req->session;
         $data['available']=$req->available;
         $data['image']=$new_image;
@@ -376,7 +376,7 @@ class AdminController extends Controller
         $data['name']=$req->name;
         $data['description']=$req->description;
         $data['price']=$req->price;
-        $data['catagory']=$req->catagory;
+        $data['category']=$req->category;
         $data['session']=$req->session;
         $data['available']=$req->available;
 

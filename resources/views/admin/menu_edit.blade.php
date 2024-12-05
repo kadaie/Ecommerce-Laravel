@@ -45,10 +45,10 @@
                         <input type="number" name="price" value="{{ $product->price }}" class="form-control" id="exampleInputPassword4">
                       </div>
                       <div class="form-group">
-                        <label for="exampleSelectGender">Catagory</label>
-                        <select class="form-control" name="catagory" id="exampleSelectGender">
-                          <option value="regular" @php if($product->catagory=="regular"){ echo"selected"; }   @endphp>Regular</option>
-                          <option value="special" @php if($product->catagory=="special"){ echo"selected"; }   @endphp>Special</option>
+                        <label for="exampleSelectGender">category</label>
+                        <select class="form-control" name="category" id="exampleSelectGender">
+                          <option value="regular" @php if($product->category=="regular"){ echo"selected"; }   @endphp>Regular</option>
+                          <option value="special" @php if($product->category=="special"){ echo"selected"; }   @endphp>Special</option>
                         </select>
                       </div>
                       <div class="form-group">

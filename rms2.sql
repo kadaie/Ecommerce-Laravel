@@ -456,7 +456,7 @@ CREATE TABLE `products` (
   `description` text COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `image` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `price` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `catagory` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `category` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `session` int(11) NOT NULL,
   `available` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
@@ -467,7 +467,7 @@ CREATE TABLE `products` (
 -- Dumping data for table `products`
 --
 
-INSERT INTO `products` (`id`, `name`, `description`, `image`, `price`, `catagory`, `session`, `available`, `created_at`, `updated_at`) VALUES
+INSERT INTO `products` (`id`, `name`, `description`, `image`, `price`, `category`, `session`, `available`, `created_at`, `updated_at`) VALUES
 (1, 'Chocolate Cake', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.', 'menu-item-01.jpg', '220', 'regular', 0, 'Stock', NULL, NULL),
 (2, 'Klassy Pancake', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.', 'menu-item-02.jpg', '450', 'regular', 0, 'Stock', NULL, NULL),
 (3, 'Blueberry Cake', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.', 'menu-item-04.jpg', '650', 'regular', 0, 'Out Of Stock', NULL, NULL),
