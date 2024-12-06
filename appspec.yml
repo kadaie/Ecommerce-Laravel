@@ -1,0 +1,9 @@
+version: 0.0
+Resources:
+  - TargetService:
+      Type: AWS::ECS::Service
+      Properties:
+        TaskDefinition: "arn:aws:ecs:us-east-1:626635412659:task-definition/test-task:5"
+        LoadBalancerInfo:
+          ContainerName: "ecoecommerce-container"
+          ContainerPort: 80
