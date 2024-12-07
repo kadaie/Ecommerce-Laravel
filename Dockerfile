@@ -1,5 +1,5 @@
 # Base image for PHP with necessary extensions
-FROM public.ecr.aws/bitnami/php-fpm:7.4
+FROM php:7.4-fpm
 
 # Set working directory
 WORKDIR /var/www
@@ -15,6 +15,7 @@ RUN apt-get update && apt-get install -y \
     unzip \
     git \
     curl \
+    && docker-php-ext-configure gd --with-freetype --with-jpeg \
     && docker-php-ext-install pdo pdo_mysql mbstring exif pcntl bcmath gd
 
 # Install Composer
