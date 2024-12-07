@@ -3,7 +3,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:us-east-1:626635412659:task-definition/test-task:5"
+        TaskDefinition: "arn:aws:ecs:us-east-1:626635412659:task-definition/test-task:7"
         LoadBalancerInfo:
           ContainerName: "ecommerce-container"
           ContainerPort: 80
