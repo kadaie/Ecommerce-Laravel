@@ -1,5 +1,5 @@
 # Base image for PHP with necessary extensions
-FROM nginx
+FROM php:7.4-fpm
 
 # Set working directory
 WORKDIR /var/www
