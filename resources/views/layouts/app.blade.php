@@ -17,6 +17,11 @@
 
         <!-- Scripts -->
         <script src="{{ mix('js/app.js') }}" defer></script>
+        <script>
+       
+        window.baseUrl = "{{ secure_url('/') }}";
+
+        </script>
     </head>
     <body class="font-sans antialiased">
         <x-jet-banner />
