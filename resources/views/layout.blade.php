@@ -14,15 +14,15 @@
     <title>Midway Dine - Your Favourite Foods</title>
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/bootstrap.min.css',true)}}">
 
-    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/font-awesome.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/font-awesome.css',true)}}">
 
-    <link rel="stylesheet" href="{{ asset('assets/css/css-library.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/css/css-library.css',true)}}">
 
-    <link rel="stylesheet" href="{{ asset('assets/css/owl-carousel.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/css/owl-carousel.css',true)}}">
 
-    <link rel="stylesheet" href="{{ asset('assets/css/lightbox.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/css/lightbox.css',true)}}">
 
     <script src="{{ asset('assets/js/angular.min.js')}}"></script>
     <script src="{{ asset('assets/js/bKash-checkout.js')}}"></script>
