@@ -24,9 +24,9 @@
 
     <link rel="stylesheet" href="{{ asset('assets/css/lightbox.css',true)}}">
 
-    <script src="{{ asset('assets/js/angular.min.js')}}"></script>
-    <script src="{{ asset('assets/js/bKash-checkout.js')}}"></script>
-    <script src="{{ asset('assets/js/bKash-checkout-sandbox.js')}}"></script>
+    <script src="{{ asset('assets/js/angular.min.js',true,true)}}"></script>
+    <script src="{{ asset('assets/js/bKash-checkout.js',true)}}"></script>
+    <script src="{{ asset('assets/js/bKash-checkout-sandbox.js',true)}}"></script>
 
     </head>
     
@@ -49,7 +49,7 @@
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
                         <a href="{{url('home')}}" class="logo">
-                            <img width="100px" src="{{ asset('assets/images/logo.png')}}">
+                            <img width="100px" src="{{ asset('assets/images/logo.png',true)}}">
                         </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
@@ -163,7 +163,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="logo">
-                        <a href="{{url('home')}}"><img src="{{ asset('assets/images/logo.png')}}" alt=""></a>
+                        <a href="{{url('home')}}"><img src="{{ asset('assets/images/logo.png',true)}}" alt=""></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-xs-12">
@@ -177,26 +177,26 @@
     </footer>
 
     <!-- jQuery -->
-    <script src="{{ asset('assets/js/jquery-2.1.0.min.js')}}"></script>
+    <script src="{{ asset('assets/js/jquery-2.1.0.min.js',true)}}"></script>
 
     <!-- Bootstrap -->
-    <script src="{{ asset('assets/js/popper.js')}}"></script>
-    <script src="{{ asset('assets/js/bootstrap.min.js')}}"></script>
+    <script src="{{ asset('assets/js/popper.js',true)}}"></script>
+    <script src="{{ asset('assets/js/bootstrap.min.js',true)}}"></script>
 
     <!-- Plugins -->
-    <script src="{{ asset('assets/js/owl-carousel.js')}}"></script>
-    <script src="{{ asset('assets/js/accordions.js')}}"></script>
-    <script src="{{ asset('assets/js/datepicker.js')}}"></script>
-    <script src="{{ asset('assets/js/scrollreveal.min.js')}}"></script>
-    <script src="{{ asset('assets/js/waypoints.min.js')}}"></script>
-    <script src="{{ asset('assets/js/jquery.counterup.min.js')}}"></script>
-    <script src="{{ asset('assets/js/imgfix.min.js')}}"></script> 
-    <script src="{{ asset('assets/js/slick.js')}}"></script> 
-    <script src="{{ asset('assets/js/lightbox.js')}}"></script> 
-    <script src="{{ asset('assets/js/isotope.js')}}"></script> 
+    <script src="{{ asset('assets/js/owl-carousel.js',true)}}"></script>
+    <script src="{{ asset('assets/js/accordions.js',true)}}"></script>
+    <script src="{{ asset('assets/js/datepicker.js',true)}}"></script>
+    <script src="{{ asset('assets/js/scrollreveal.min.js',true)}}"></script>
+    <script src="{{ asset('assets/js/waypoints.min.js',true)}}"></script>
+    <script src="{{ asset('assets/js/jquery.counterup.min.js',true)}}"></script>
+    <script src="{{ asset('assets/js/imgfix.min.js',true)}}"></script> 
+    <script src="{{ asset('assets/js/slick.js',true)}}"></script> 
+    <script src="{{ asset('assets/js/lightbox.js',true)}}"></script> 
+    <script src="{{ asset('assets/js/isotope.js',true)}}"></script> 
     
     <!-- Global Init -->
-    <script src="{{ asset('assets/js/custom.js')}}"></script>
+    <script src="{{ asset('assets/js/custom.js',true)}}"></script>
     <script>
 
         $(function() {
